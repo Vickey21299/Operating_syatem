@@ -1,4 +1,45 @@
+# Interprocess Communication Project (Assigment 2 question2 )
+
+## Description
+
+This project involves writing two programs, P1 and P2, to demonstrate interprocess communication using three different techniques: Unix domain sockets, FIFOs, and shared memory.
+
+### Task Details
+
+1. **Program P1**:
+   - Generates an array of 50 random strings (characters) of fixed length.
+   - Sends a group of five consecutive elements of the array of strings to P2, along with the IDs of the strings (where the ID is the index of the array corresponding to the string).
+   - Waits for an acknowledgment from P2 and sends the next five strings, starting with the successor of the acknowledged ID.
+
+2. **Program P2**:
+   - Accepts the received strings and sends back the highest ID received to acknowledge the strings.
+   - Prints the IDs and the strings on the console.
+
+### Techniques Used
+
+The communication mechanism between P1 and P2 is implemented using three different techniques:
+1. **Unix Domain Sockets**
+2. **FIFOs (Named Pipes)**
+3. **Shared Memory**
+
+## Installation and Running the Project
+
+### Prerequisites
+
+- Unix-based operating system (Linux or macOS recommended)
+- C/C++ compiler (gcc or g++)
+- Make (optional but recommended for ease of building)
+
+### Building the Project
+
+To build the project, navigate to the project directory and run:
+
+sh
+make all
 # how-to-update-your-kernel-by-checking-2D-matrix
+
+
+
 Question 2:
 Kernel memory copy (kernel 2d memcpy())
 
