@@ -1,4 +1,4 @@
-# Interprocess Communication Project (Assigment 2 question2 )
+# Interprocess Communication Project (Assigment 3 question2 )
 
 ## Description
 
