@@ -1,4 +1,5 @@
 # Interprocess Communication Project (Assigment 3 question2 )
+[for information Read the readme.pdf](https://github.com/Vickey21299/Operating_system/blob/main/Assigment3/Q2/readmeq2.pdf)
 
 ## Description
 
@@ -37,7 +38,6 @@ To build the project, navigate to the project directory and run:
 sh
 make all
 # how-to-update-your-kernel-by-checking-2D-matrix
-[for information Read the readme.pdf](https://github.com/Vickey21299/Operating_system/blob/main/Assigment3/Q2/readmeq2.pdf)
 
 
 Question 2:
